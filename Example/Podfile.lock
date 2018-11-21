@@ -1,0 +1,16 @@
+PODS:
+  - KDUIKit (0.1.0)
+
+DEPENDENCIES:
+  - KDUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  KDUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KDUIKit: 451cb9fe2a01f17bbc84834fd37b9f7ee2a34d9b
+
+PODFILE CHECKSUM: a7af6d23905d057931c35699e1aace6f10c2a9e6
+
+COCOAPODS: 1.5.3
