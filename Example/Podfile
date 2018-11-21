@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KDUIKit_Example' do
+  pod 'KDUIKit', :path => '../'
+
+  target 'KDUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
