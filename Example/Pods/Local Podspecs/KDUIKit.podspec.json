@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "KDUIKit/Classes/**/*"
+  "source_files": "KDUIKit/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "~> 4.0.1"
+    ]
+  }
 }

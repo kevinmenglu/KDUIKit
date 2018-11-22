@@ -1,15 +1,22 @@
 PODS:
-  - KDUIKit (0.1.0)
+  - KDUIKit (0.1.0):
+    - SnapKit (~> 4.0.1)
+  - SnapKit (4.0.1)
 
 DEPENDENCIES:
   - KDUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   KDUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KDUIKit: 451cb9fe2a01f17bbc84834fd37b9f7ee2a34d9b
+  KDUIKit: b7c81deb99ea9f868d9eb59952390f97cb465bc4
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
 PODFILE CHECKSUM: a7af6d23905d057931c35699e1aace6f10c2a9e6
 
