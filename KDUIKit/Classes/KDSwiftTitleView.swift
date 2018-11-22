@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 public class KDSwiftTitleView: UIView {
 
-    var sectionInset: UIEdgeInsets = .zero {
+   public var sectionInset: UIEdgeInsets = .zero {
         didSet {
             titleLbl.snp.updateConstraints { (make) in
                 make.edges.equalToSuperview().inset(sectionInset)
@@ -18,13 +18,13 @@ public class KDSwiftTitleView: UIView {
         }
     }
     
-    var title: String? {
+   public var title: String? {
         didSet {
             titleLbl.text = title
         }
     }
     
-    var titleFont: UIFont? {
+   public var titleFont: UIFont? {
         didSet {
             titleLbl.font = titleFont
         }
@@ -38,7 +38,7 @@ public class KDSwiftTitleView: UIView {
         return label
     }()
     
-    override init(frame: CGRect) {
+  public  override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.white
         addSubview(titleLbl)
@@ -47,7 +47,7 @@ public class KDSwiftTitleView: UIView {
         }
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
