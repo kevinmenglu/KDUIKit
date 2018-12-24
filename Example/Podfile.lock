@@ -1,5 +1,5 @@
 PODS:
-  - KDUIKit (0.1.0):
+  - KDUIKit (0.1.2):
     - SnapKit (~> 4.0.1)
   - SnapKit (4.0.1)
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KDUIKit: b7c81deb99ea9f868d9eb59952390f97cb465bc4
+  KDUIKit: 090f92c54da0540ce6dae82d902f15f8dd87fab8
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
 PODFILE CHECKSUM: a7af6d23905d057931c35699e1aace6f10c2a9e6
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
